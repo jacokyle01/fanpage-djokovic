@@ -62,7 +62,7 @@ body {
 
 .panel-header {
     text-align: center;
-    background-color: lightgray;
+    background-color: goldenrod;
     padding: 5px 0px;
 }
 
@@ -77,10 +77,12 @@ ul {
 
 li {
     margin-left: 16px;
-    list-style-type: square;
+    list-style-type: none;
     font-size: 20px;
     font-weight: 500;
     font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-left: 3px solid gold;
+    padding-left: 5px;
 }
 
 h1 {
