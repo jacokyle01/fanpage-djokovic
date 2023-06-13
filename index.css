@@ -155,8 +155,9 @@ li {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 9vw;
     font-weight: 550;
+    margin: 35px 10px 70px 10px;
 }
 
 .title > h1 {
@@ -166,6 +167,12 @@ h1 {
 h2 {
     margin: 0px;
     font-size: 4em;
+}
+
+h5 {
+    color: white;
+    font-size: 5vw;
+    margin: 70px 0px;
 }
 
 hr {
