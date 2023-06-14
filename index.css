@@ -26,12 +26,32 @@ body {
     padding-bottom: 50px;
 }
 
-.section {
-    margin: 70px 0px; 
+canvas {
 }
+
+.section {
+    margin: 80px 0px; 
+}
+
+.stat-name {
+    text-align: center;
+}
+
+.stat-header {
+    text-align: center;
+}
+
 
 .stat-content {
 }
+
+.career-highlights {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 
 .big-3 {
     width: 100%;
@@ -41,12 +61,10 @@ body {
 }
 
 .vs-federer {
-    background-color: green;
     flex: 1;
 }
 
 .vs-nadal {
-    background-color: orange;
     flex: 1;
 }
 
@@ -88,7 +106,8 @@ img {
 }
 
 
-
+.vs-federer {
+}
 
 
 
@@ -100,15 +119,16 @@ img {
 }
 
 .panel {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: stretch;
     gap: 10px;
     margin: 20px;
-    width: 320px;
+    width: 320px; */
     
-    box-shadow: 0 .375rem .875rem 0 rgba(0,0,0,.13),0 .0625rem .25rem 0 rgba(0,0,0,.11);
+    box-shadow: 0 .375rem .875rem 0 rgba(0,0,0,.13),  0 .0625rem .25rem 0 rgba(0,0,0,.11);
     border-radius: 12px;
+    padding: 5px 20px;
     
 }
 
@@ -141,17 +161,17 @@ ul {
     padding: 0px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5rem;
 }
 
 li {
-    margin-left: 16px;
+    margin-left: 5px;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 1.75rem;
     font-weight: 500;
     font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    border-left: 3px solid gold;
     padding-left: 5px;
+    text-align: center;
 }
 
 h1 {
@@ -167,6 +187,15 @@ h1 {
 h2 {
     margin: 0px;
     font-size: 4em;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 3.5em;
+}
+
+h4 {
+    font-size: 1.5rem;
 }
 
 h5 {
