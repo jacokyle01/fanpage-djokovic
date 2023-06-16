@@ -30,15 +30,21 @@ canvas {
     text-align: center;
 }
 
+.header {
+    width: 25%;
+}
+
 
 .stat-content {
 }
 
 .career-highlights {
     width: 100%;
+    gap: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 
@@ -47,6 +53,7 @@ canvas {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .vs {
@@ -87,8 +94,8 @@ div.bar#third {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    max-height: auto;
 }
 
 
