@@ -1,6 +1,6 @@
 // setup
 let data = {
-  labels: ["23", "22", "20"],
+  labels: ["Djokovic - 23", "Nadal - 22", "Federer - 20"],
   datasets: [
     {
       label: "",
@@ -60,7 +60,7 @@ const myChart = new Chart(document.getElementById("myChart"), config);
 
 // setup
 data = {
-  labels: ["387", "310", "287"],
+  labels: ["Djokovic - 387", "Federer - 310", "Sampras - 287"],
   datasets: [
     {
       label: "",
@@ -120,7 +120,7 @@ const myChart2 = new Chart(document.getElementById("myChart2"), config2);
 
 // setup
 data = {
-  labels: ["83.4%", "82.9%", "82.4%"],
+  labels: ["Djokovic - 83.4%", "Federer - 82.9%", "Borg - 82.4%"],
   datasets: [
     {
       label: "",
